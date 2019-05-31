@@ -36,7 +36,7 @@ public class PartitioningTest {
 		
 		ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 		System.setOut(new PrintStream(outContent));
-		GFG.patternSearch(grid, word);
+		SearchWord.patternSearch(grid, word);
 		assertEquals(outContent.toString(), sb.toString());
 		
 		//fail("Not yet implemented");
@@ -54,10 +54,10 @@ public class PartitioningTest {
         Scanner scanner = new Scanner(input);
         while(scanner.hasNextLine()) {
             //String name = scanner.next();
-            GFG.R = scanner.nextInt();
-            GFG.C = scanner.nextInt();
-            grid = new char [GFG.R][GFG.C];
-            for(int i=0;i < GFG.R ;i++){
+            SearchWord.R = scanner.nextInt();
+            SearchWord.C = scanner.nextInt();
+            grid = new char [SearchWord.R][SearchWord.C];
+            for(int i=0;i < SearchWord.R ;i++){
                 scanner.nextLine(); // clears newlines from the buffer
                 String name = scanner.next();
                 for(int j=0;j < name.length(); j++){

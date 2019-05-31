@@ -2,7 +2,7 @@
 import java.io.*; 
 import java.util.*; 
 
-class GFG 
+class SearchWord 
 { 
 
 	// Rows and columns in given grid 
@@ -38,7 +38,17 @@ class GFG
 				{ 
 					// If out of bound break 
 					if (rd >= R || rd < 0 || cd >= C || cd < 0) 
-						break; 
+						break;
+					/*if(rd>= R)
+						break;
+					if( rd< 0 ) 
+						break;
+					if(cd >= C)
+						break;
+					if(cd < 0)
+						break;*/
+
+
 
 					// If not matched, break 
 					if (grid[rd][cd] != word.charAt(k)) 

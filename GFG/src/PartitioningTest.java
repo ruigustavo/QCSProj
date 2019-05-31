@@ -22,9 +22,9 @@ public class PartitioningTest {
 	@Test(dataProvider = "provideFilenames")
 	public void test(String fileName) {
 		//diretoria dos inputs para boundary inputs
-		String dirIn = "C:/Users/rgven/workspace/GFG/src/partitioning/";
+		String dirIn = "C:/Users/rgven/workspace/GFG/src/inputs_partitioning/";
 		//diretoria dos outputs do oracle
-        String dirOut = "C:/Users/rgven/workspace/GFG/src/outputs/";
+        String dirOut = "C:/Users/rgven/workspace/GFG/src/outputs_partitioning/";
 		try {
 			//Leitura do ficheiro de input
             readInputs(dirIn+"i"+fileName+".txt");
@@ -45,7 +45,7 @@ public class PartitioningTest {
 	@DataProvider(name = "provideFilenames")
     public String[] provideData() {
         return new String[] { 
-            "1", "1", "2","3", "4", "5", "6", "7","8","9"
+            "1", "2","3", "4", "5", "6", "7","8","9"
         };
     }
 	

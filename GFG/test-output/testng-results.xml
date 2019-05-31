@@ -1,354 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="31" passed="31">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="224" started-at="2019-05-30T12:53:08Z" finished-at="2019-05-30T12:53:08Z">
+  <suite name="Default suite" duration-ms="82" started-at="2019-05-31T09:23:55Z" finished-at="2019-05-31T09:23:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="224" started-at="2019-05-30T12:53:08Z" finished-at="2019-05-30T12:53:08Z">
-      <class name="example2">
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="23" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
+    <test name="Default test" duration-ms="82" started-at="2019-05-31T09:23:55Z" finished-at="2019-05-31T09:23:55Z">
+      <class name="PartitioningTest">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:PartitioningTest@3a82f6ef]" name="test" duration-ms="13" started-at="2019-05-31T09:23:55Z" data-provider="provideFilenames" finished-at="2019-05-31T09:23:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10]]>
+                <![CDATA[1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="3" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:PartitioningTest@3a82f6ef]" name="test" duration-ms="2" started-at="2019-05-31T09:23:55Z" data-provider="provideFilenames" finished-at="2019-05-31T09:23:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[11]]>
+                <![CDATA[2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="2" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:PartitioningTest@3a82f6ef]" name="test" duration-ms="4" started-at="2019-05-31T09:23:55Z" data-provider="provideFilenames" finished-at="2019-05-31T09:23:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[12]]>
+                <![CDATA[3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="4" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:PartitioningTest@3a82f6ef]" name="test" duration-ms="4" started-at="2019-05-31T09:23:55Z" data-provider="provideFilenames" finished-at="2019-05-31T09:23:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[13]]>
+                <![CDATA[4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="4" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:PartitioningTest@3a82f6ef]" name="test" duration-ms="7" started-at="2019-05-31T09:23:55Z" data-provider="provideFilenames" finished-at="2019-05-31T09:23:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[14]]>
+                <![CDATA[5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="4" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:PartitioningTest@3a82f6ef]" name="test" duration-ms="6" started-at="2019-05-31T09:23:55Z" data-provider="provideFilenames" finished-at="2019-05-31T09:23:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[15]]>
+                <![CDATA[6]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="4" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:PartitioningTest@3a82f6ef]" name="test" duration-ms="6" started-at="2019-05-31T09:23:55Z" data-provider="provideFilenames" finished-at="2019-05-31T09:23:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[16]]>
+                <![CDATA[7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="3" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:PartitioningTest@3a82f6ef]" name="test" duration-ms="3" started-at="2019-05-31T09:23:55Z" data-provider="provideFilenames" finished-at="2019-05-31T09:23:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[17]]>
+                <![CDATA[8]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="3" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:PartitioningTest@3a82f6ef]" name="test" duration-ms="10" started-at="2019-05-31T09:23:55Z" data-provider="provideFilenames" finished-at="2019-05-31T09:23:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[18]]>
+                <![CDATA[9]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="4" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[19]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="3" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[20]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="4" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[21]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="3" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[22]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="2" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[23]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="4" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[24]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="4" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[25]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="3" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[26]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="3" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[27]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="3" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[28]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="8" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[29]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="7" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[30]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="8" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[31]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="5" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[32]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="5" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[33]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="2" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[34]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="2" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[35]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="1" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[36]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="7" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[37]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="4" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[38]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="6" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[39]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:example2@20de05e5]" name="test" duration-ms="4" started-at="2019-05-30T12:53:08Z" data-provider="provideFilenames" finished-at="2019-05-30T12:53:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[40]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- example2 -->
+      </class> <!-- PartitioningTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
